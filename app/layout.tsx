@@ -19,6 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Angga Kusuma | Senior Front-end & Mobile Developer",
   description: "Portfolio of Angga Kusuma, a seasoned developer creating innovative and dynamic web solutions.",
+  metadataBase: new URL("https://angga-kusuma.netlify.app"),
   openGraph: {
     title: "Angga Kusuma | Senior Front-end & Mobile Developer",
     description: "Portfolio of Angga Kusuma, a seasoned developer creating innovative and dynamic web solutions.",
