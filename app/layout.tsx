@@ -19,6 +19,28 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Angga Kusuma | Senior Front-end & Mobile Developer",
   description: "Portfolio of Angga Kusuma, a seasoned developer creating innovative and dynamic web solutions.",
+  openGraph: {
+    title: "Angga Kusuma | Senior Front-end & Mobile Developer",
+    description: "Portfolio of Angga Kusuma, a seasoned developer creating innovative and dynamic web solutions.",
+    url: "https://angga-kusuma.netlify.app",
+    siteName: "Angga Kusuma Portfolio",
+    images: [
+      {
+        url: "/pas-photo.jpg",
+        width: 800,
+        height: 600,
+        alt: "Angga Kusuma",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Angga Kusuma | Senior Front-end & Mobile Developer",
+    description: "Portfolio of Angga Kusuma, a seasoned developer creating innovative and dynamic web solutions.",
+    images: ["/pas-photo.jpg"],
+  },
 };
 
 export default function RootLayout({
@@ -33,7 +55,7 @@ export default function RootLayout({
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
