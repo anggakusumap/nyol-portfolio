@@ -11,7 +11,7 @@ const experience = [
     role: "Software Engineer",
     company: "CodeBros",
     period: "April 2025 - Present",
-    description: "Working as a Software Engineer.",
+    description: "Responsible for building Progressive Web Apps (PWAs) and mobile applications using React and React Native. The role focuses on delivering seamless, responsive, and high-performance user experiences tailored to meet client requirements. Utilizes modern web and mobile technologies to create robust, scalable, and optimized applications for performance and usability.",
     skills: ["Software Engineering"] // Placeholder based on image, refine if needed
   },
   {
